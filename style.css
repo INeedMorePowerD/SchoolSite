@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
     
 *{
-        margin: 0;
+        margin: 15px;
         padding: 0;
         border: 0;
 }
   
     body{
-        background-color: purple;
+        background-color: rgb(212, 5, 212);
     }
 
     header {
         padding: 32px;
-        border-bottom: 1px solid greenyellow;
-        background-color: blueviolet;
+        border-bottom: 15px solid var(--subcor);
+        background-color: rgba(33, 0, 63, 0.226);
 
     }
     header div {
@@ -29,4 +29,39 @@
 header div a:hover {
     color: lightseagreen;
     transition: color 500ms;
+}
+#box {
+    text-align: center;
+    padding: 32px;
+}
+#box img {
+    border-radius: 50%;
+    border: 5px solid lightseagreen;
+    margin-bottom: 32px;
+}
+#box1 h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+
+}
+#box1 h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+#box1 p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+
+}
+:root{
+ --subcor: yellow
+}
+header div {
+    text-align: center;
 }
