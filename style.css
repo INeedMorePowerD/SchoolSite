@@ -13,7 +13,7 @@
     header {
         padding: 32px;
         border-bottom: 15px solid var(--subcor);
-        background-color: rgba(33, 0, 63, 0.226);
+        background-color: rgba(45, 1, 87, 0.226);
 
     }
     header div {
@@ -21,47 +21,90 @@
     }
     header div a {
         color:aliceblue;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 35px;
+        line-height: 25px;
         margin: 0 16px;
         text-decoration: 'Abril Fatface', serif;
     }
 header div a:hover {
-    color: lightseagreen;
+    color: yellow;
     transition: color 500ms;
 }
 #box {
     text-align: center;
-    padding: 32px;
+    padding: 0px;
+    
 }
 #box img {
-    border-radius: 50%;
-    border: 5px solid lightseagreen;
+    border-radius: 20%;
+    border: 5px solid yellow;
     margin-bottom: 32px;
+    padding-right: 2000px;
+    border-width: 15px;
 }
-#box1 h1 {
-    font-size: 42px;
+#box h1 {
+    padding-left: 1000px;
+    padding-bottom: 33px;
+    font-size: 112px;
     line-height: 52px;
     font-weight: bold;
 
 }
-#box1 h2 {
-    font-size: 24px;
+#box h2 {
+    padding-left: 1000px;
+    padding-top: 10px;
+    font-size: 44px;
     line-height: 34px;
     font-weight: normal;
     margin-top: 8px;
     opacity: 0.8;
 }
-#box1 p {
+#box p {
+    padding-left: 1000px;
     max-width: 500px;
     margin: 32px auto;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 34px;
 
 }
 :root{
  --subcor: yellow
 }
-header div {
+.links {
     text-align: center;
+}
+.links a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.links a {
+    color: aliceblue;
+    transition: 600ms;
+    font-size: 44px;
+    
+}
+#box1 h1 {
+    padding: 4px;
+
+}
+#box1 h2 {
+    padding: 10px;
+    
+}
+#box1 p:hover {
+    color: var(--subcor);
+    transition: 600ms;  
+   
+}
+#linksFooter {
+    padding-top: 32px;
+}
+
+#linksFooter a {
+    padding-top: 32px;
+    padding-right: 20px;
+    border-bottom: 0px solid var(--subcor);
 }
