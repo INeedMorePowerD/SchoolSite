@@ -30,20 +30,21 @@ header div a:hover {
     color: yellow;
     transition: color 500ms;
 }
+
 #box {
     text-align: center;
     padding: 0px;
     
 }
+
 #box img {
     border-radius: 20%;
     border: 5px solid yellow;
     margin-bottom: 32px;
-    padding-right: 2000px;
     border-width: 15px;
+    
 }
 #box h1 {
-    padding-left: 1000px;
     padding-bottom: 33px;
     font-size: 112px;
     line-height: 52px;
@@ -51,16 +52,14 @@ header div a:hover {
 
 }
 #box h2 {
-    padding-left: 1000px;
     padding-top: 10px;
     font-size: 44px;
     line-height: 34px;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 8px;
     opacity: 0.8;
 }
 #box p {
-    padding-left: 1000px;
     max-width: 500px;
     margin: 32px auto;
     font-size: 34px;
@@ -108,3 +107,5 @@ header div a:hover {
     padding-right: 20px;
     border-bottom: 0px solid var(--subcor);
 }
+
+
